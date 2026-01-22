@@ -6871,7 +6871,7 @@ function PlasmicHomepage__RenderFunc(props: {
                               sty.text___05PCd
                             )}
                           >
-                            {"Follow us on::"}
+                            {"Follow us on test build:"}
                           </div>
                         </div>
                         <div
