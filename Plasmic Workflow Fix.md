@@ -7,9 +7,10 @@ This document covers the fixes implemented to ensure smooth deployment of Plasmi
 ## Table of Contents
 
 1. [Animation Fixes](#animation-fixes)
-2. [Package Lock Sync Workflow](#package-lock-sync-workflow)
-3. [How It Works](#how-it-works)
-4. [Setup for New Projects](#setup-for-new-projects)
+2. [Amplify Configuration](#amplify-configuration)
+3. [Package Lock Sync Workflow](#package-lock-sync-workflow)
+4. [How It Works](#how-it-works)
+5. [Setup for New Projects](#setup-for-new-projects)
 
 ---
 
@@ -69,6 +70,48 @@ html, body {
   overflow-x: hidden; /* This breaks position: sticky */
 }
 ```
+
+---
+
+## Amplify Configuration
+
+### Problem
+
+Amplify's default `npm ci` command fails when `package-lock.json` is out of sync with `package.json`. This happens frequently with Plasmic projects.
+
+### Solution
+
+Create an `amplify.yml` file in the root of your project to use `npm install` instead:
+
+**File:** `amplify.yml`
+
+```yaml
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm install --legacy-peer-deps
+        - npx plasmic sync --yes
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - .next/cache/**/*
+      - .npm/**/*
+```
+
+### Key Points
+
+- **`npm install` instead of `npm ci`** - More resilient to lock file mismatches
+- **`--legacy-peer-deps`** - Handles React version conflicts with older packages
+- **`npx plasmic sync --yes`** - Syncs latest Plasmic changes during build
+- **Cache configuration** - Speeds up subsequent builds
 
 ---
 
@@ -213,11 +256,15 @@ AWS Amplify builds successfully
 
 When creating a new Plasmic project that deploys to Amplify/Netlify/Vercel:
 
-### 1. Add the sync-lockfile workflow
+### 1. Add amplify.yml (for Amplify deployments)
+
+Create `amplify.yml` in the root of your project with the content shown in the [Amplify Configuration](#amplify-configuration) section.
+
+### 2. Add the sync-lockfile workflow
 
 Create `.github/workflows/sync-lockfile.yml` with the content shown above.
 
-### 2. Fix _app.tsx for slick animations
+### 3. Fix _app.tsx for slick animations
 
 Add slick-carousel CSS imports if using slider components:
 
@@ -226,7 +273,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 ```
 
-### 3. Fix globals.css for sticky animations
+### 4. Fix globals.css for sticky animations
 
 Ensure `overflow-x: hidden` is only on `html`, not `body`:
 
@@ -241,7 +288,7 @@ body {
 }
 ```
 
-### 4. Push to GitHub
+### 5. Push to GitHub
 
 The workflow will automatically run and keep everything in sync.
 
