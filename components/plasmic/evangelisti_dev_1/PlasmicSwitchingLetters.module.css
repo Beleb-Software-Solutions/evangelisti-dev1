@@ -1,0 +1,329 @@
+.header3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 652px;
+  row-gap: 16px;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+.p__pllcB {
+  animation: none;
+  display: block;
+  font-size: 40px;
+  text-align: left;
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 80px;
+  color: #01213666;
+  transform: translate3d(0px, 0px, 0px);
+  font-style: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  transition-property: all;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.span__w5G {
+  text-transform: uppercase;
+  color: #01213666;
+}
+.spanothers__1st__w5GwDAe {
+  color: #012136;
+}
+.spanothers__2nd__w5Gmzldo {
+  color: #012136;
+}
+.spanothers__3rd__w5GMw3Fi {
+  color: #012136;
+}
+.spanothers__4th__w5Gbp1Vc {
+  color: #012136;
+}
+.spanothers__5th__w5Gf8Nj1 {
+  color: #012136;
+}
+.spanothers__6th__w5GbjCn9 {
+  color: #012136;
+}
+.spanothers__7th__w5GmNgxj {
+  color: #012136;
+}
+.spanothers__8th__w5Gb5Jeg {
+  color: #012136;
+}
+.spanothers__9th__w5GjynmL {
+  color: #012136;
+}
+.spanothers__10th__w5GnFrSj {
+  color: #012136;
+}
+.spanothers__11Th__w5GxdSwz {
+  color: #012136;
+}
+.spanothers__12Th__w5G8KXpD {
+  color: #012136;
+}
+.span__xtmMl {
+  text-transform: uppercase;
+}
+.spanothers__2nd__xtmMLmzldo {
+  color: #012136;
+}
+.spanothers__3rd__xtmMlMw3Fi {
+  color: #012136;
+}
+.spanothers__4th__xtmMlbp1Vc {
+  color: #012136;
+}
+.spanothers__5th__xtmMlf8Nj1 {
+  color: #012136;
+}
+.spanothers__6th__xtmMlbjCn9 {
+  color: #012136;
+}
+.spanothers__7th__xtmMLmNgxj {
+  color: #012136;
+}
+.spanothers__8th__xtmMLb5Jeg {
+  color: #012136;
+}
+.spanothers__9th__xtmMLjynmL {
+  color: #012136;
+}
+.spanothers__10th__xtmMLnFrSj {
+  color: #012136;
+}
+.spanothers__11Th__xtmMLxdSwz {
+  color: #012136;
+}
+.spanothers__12Th__xtmMl8KXpD {
+  color: #012136;
+}
+.p___8Xmnh {
+  animation: none;
+  display: block;
+  font-size: 32px;
+  text-align: left;
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 80px;
+  color: #01213666;
+  transform: translate(-0.173828125px, -0.000026702880859375px);
+  font-style: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  max-width: 562px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.span___78Wof {
+  font-weight: 400;
+}
+.spanothers__3rd___78WofMw3Fi {
+  color: #012136;
+}
+.spanothers__4th___78Wofbp1Vc {
+  color: #012136;
+}
+.spanothers__5th___78Woff8Nj1 {
+  color: #012136;
+}
+.spanothers__6th___78WofbjCn9 {
+  color: #012136;
+}
+.spanothers__7th___78WoFmNgxj {
+  color: #012136;
+}
+.spanothers__8th___78WoFb5Jeg {
+  color: #012136;
+}
+.spanothers__9th___78WoFjynmL {
+  color: #012136;
+}
+.spanothers__10th___78WoFnFrSj {
+  color: #012136;
+}
+.spanothers__11Th___78WoFxdSwz {
+  color: #012136;
+}
+.spanothers__12Th___78Wof8KXpD {
+  color: #012136;
+}
+.span__jEfca {
+  font-weight: 400;
+}
+.spanothers__4th__jEfcabp1Vc {
+  color: #012136;
+}
+.spanothers__5th__jEfcaf8Nj1 {
+  color: #012136;
+}
+.spanothers__6th__jEfcabjCn9 {
+  color: #012136;
+}
+.spanothers__7th__jEfcAmNgxj {
+  color: #012136;
+}
+.spanothers__8th__jEfcAb5Jeg {
+  color: #012136;
+}
+.spanothers__9th__jEfcAjynmL {
+  color: #012136;
+}
+.spanothers__10th__jEfcAnFrSj {
+  color: #012136;
+}
+.spanothers__11Th__jEfcAxdSwz {
+  color: #012136;
+}
+.spanothers__12Th__jEfca8KXpD {
+  color: #012136;
+}
+.span__jwFGr {
+  font-weight: 400;
+}
+.spanothers__5th__jwFGrF8Nj1 {
+  color: #012136;
+}
+.spanothers__6th__jwFGrBjCn9 {
+  color: #012136;
+}
+.spanothers__7th__jwFGrmNgxj {
+  color: #012136;
+}
+.spanothers__8th__jwFGrb5Jeg {
+  color: #012136;
+}
+.spanothers__9th__jwFGrjynmL {
+  color: #012136;
+}
+.spanothers__10th__jwFGrnFrSj {
+  color: #012136;
+}
+.spanothers__11Th__jwFGrxdSwz {
+  color: #012136;
+}
+.spanothers__12Th__jwFGr8KXpD {
+  color: #012136;
+}
+.span___5Uxck {
+  font-weight: 400;
+}
+.spanothers__6th___5UxckbjCn9 {
+  color: #012136;
+}
+.spanothers__7th___5UxcKmNgxj {
+  color: #012136;
+}
+.spanothers__8th___5UxcKb5Jeg {
+  color: #012136;
+}
+.spanothers__9th___5UxcKjynmL {
+  color: #012136;
+}
+.spanothers__10th___5UxcKnFrSj {
+  color: #012136;
+}
+.spanothers__11Th___5UxcKxdSwz {
+  color: #012136;
+}
+.spanothers__12Th___5Uxck8KXpD {
+  color: #012136;
+}
+.span__xiSf2 {
+  font-weight: 400;
+}
+.spanothers__7th__xiSf2MNgxj {
+  color: #012136;
+}
+.spanothers__8th__xiSf2B5Jeg {
+  color: #012136;
+}
+.spanothers__9th__xiSf2JynmL {
+  color: #012136;
+}
+.spanothers__10th__xiSf2NFrSj {
+  color: #012136;
+}
+.spanothers__11Th__xiSf2XdSwz {
+  color: #012136;
+}
+.spanothers__12Th__xiSf28KXpD {
+  color: #012136;
+}
+.span__oiWgM {
+  font-weight: 400;
+}
+.spanothers__8th__oiWgMb5Jeg {
+  color: #012136;
+}
+.spanothers__9th__oiWgMjynmL {
+  color: #012136;
+}
+.spanothers__10th__oiWgMnFrSj {
+  color: #012136;
+}
+.spanothers__11Th__oiWgMxdSwz {
+  color: #012136;
+}
+.spanothers__12Th__oiWgM8KXpD {
+  color: #012136;
+}
+.span___8PkUf {
+  font-weight: 400;
+}
+.spanothers__9th___8PkUfjynmL {
+  color: #012136;
+}
+.spanothers__10th___8PkUfnFrSj {
+  color: #012136;
+}
+.spanothers__11Th___8PkUfxdSwz {
+  color: #012136;
+}
+.spanothers__12Th___8PkUf8KXpD {
+  color: #012136;
+}
+.span__cfocG {
+  font-weight: 400;
+}
+.spanothers__10th__cfocGnFrSj {
+  color: #012136;
+}
+.spanothers__11Th__cfocGxdSwz {
+  color: #012136;
+}
+.spanothers__12Th__cfocG8KXpD {
+  color: #012136;
+}
+.span__kwp91 {
+  font-weight: 400;
+}
+.spanothers__11Th__kwp91XdSwz {
+  color: #012136;
+}
+.spanothers__12Th__kwp918KXpD {
+  color: #012136;
+}
+.span__jwfUb {
+  font-weight: 400;
+}
+.spanothers__12Th__jwfUb8KXpD {
+  color: #012136;
+}

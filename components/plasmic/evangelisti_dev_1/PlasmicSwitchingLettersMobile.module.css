@@ -1,0 +1,329 @@
+.header3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 652px;
+  row-gap: 16px;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+.p__kaA9P {
+  animation: none;
+  display: block;
+  font-size: 32px;
+  text-align: left;
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 80px;
+  color: var(--token-OESfMMfWmftq);
+  transform: translate3d(0px, 0px, 0px);
+  font-style: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  transition-property: all;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.span__ymNo5 {
+  text-transform: uppercase;
+  color: var(--token-OESfMMfWmftq);
+}
+.spanothers__1st__ymNo5Zu3TZ {
+  color: #012136;
+}
+.spanothers__2nd__ymNo5Cb6QY {
+  color: #012136;
+}
+.spanothers__3rd__ymNo5X4Q3J {
+  color: #012136;
+}
+.spanothers__4th__ymNo5Cb36S {
+  color: #012136;
+}
+.spanothers__5th__ymNo5XdWPl {
+  color: #012136;
+}
+.spanothers__6th__ymNo5D8CfO {
+  color: #012136;
+}
+.spanothers__7th__ymNo5NqpAu {
+  color: #012136;
+}
+.spanothers__8th__ymNo5TT9Nz {
+  color: #012136;
+}
+.spanothers__9th__ymNo5SrSpA {
+  color: #012136;
+}
+.spanothers__10th__ymNo5Qn4I {
+  color: #012136;
+}
+.spanothers__11Th__ymNo5DBqc {
+  color: #012136;
+}
+.spanothers__12Th__ymNo5BhAxv {
+  color: #012136;
+}
+.span__rJeOa {
+  text-transform: uppercase;
+}
+.spanothers__2nd__rJeOaCb6QY {
+  color: #012136;
+}
+.spanothers__3rd__rJeOaX4Q3J {
+  color: #012136;
+}
+.spanothers__4th__rJeOacb36S {
+  color: #012136;
+}
+.spanothers__5th__rJeOaXdWPl {
+  color: #012136;
+}
+.spanothers__6th__rJeOad8CfO {
+  color: #012136;
+}
+.spanothers__7th__rJeOaNqpAu {
+  color: #012136;
+}
+.spanothers__8th__rJeOatT9Nz {
+  color: #012136;
+}
+.spanothers__9th__rJeOaSrSpA {
+  color: #012136;
+}
+.spanothers__10th__rJeOaQn4I {
+  color: #012136;
+}
+.spanothers__11Th__rJeOaDBqc {
+  color: #012136;
+}
+.spanothers__12Th__rJeOaBhAxv {
+  color: #012136;
+}
+.p__nLuIp {
+  animation: none;
+  display: block;
+  font-size: 26px;
+  text-align: left;
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 2.5;
+  color: var(--token-OESfMMfWmftq);
+  transform: translate(-0.173828125px, -0.000026702880859375px);
+  font-style: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  max-width: 562px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.span__m6Ejs {
+  font-weight: 400;
+}
+.spanothers__3rd__m6EjsX4Q3J {
+  color: #012136;
+}
+.spanothers__4th__m6Ejscb36S {
+  color: #012136;
+}
+.spanothers__5th__m6EjsXdWPl {
+  color: #012136;
+}
+.spanothers__6th__m6Ejsd8CfO {
+  color: #012136;
+}
+.spanothers__7th__m6EjsNqpAu {
+  color: #012136;
+}
+.spanothers__8th__m6EjstT9Nz {
+  color: #012136;
+}
+.spanothers__9th__m6EjsSrSpA {
+  color: #012136;
+}
+.spanothers__10th__m6EjsQn4I {
+  color: #012136;
+}
+.spanothers__11Th__m6EjsDBqc {
+  color: #012136;
+}
+.spanothers__12Th__m6EjsBhAxv {
+  color: #012136;
+}
+.span__zfePz {
+  font-weight: 400;
+}
+.spanothers__4th__zfePZcb36S {
+  color: #012136;
+}
+.spanothers__5th__zfePzXdWPl {
+  color: #012136;
+}
+.spanothers__6th__zfePZd8CfO {
+  color: #012136;
+}
+.spanothers__7th__zfePznqpAu {
+  color: #012136;
+}
+.spanothers__8th__zfePZtT9Nz {
+  color: #012136;
+}
+.spanothers__9th__zfePzsrSpA {
+  color: #012136;
+}
+.spanothers__10th__zfePzQn4I {
+  color: #012136;
+}
+.spanothers__11Th__zfePzdBqc {
+  color: #012136;
+}
+.spanothers__12Th__zfePzBhAxv {
+  color: #012136;
+}
+.span__mkCgq {
+  font-weight: 400;
+}
+.spanothers__5th__mkCgqXdWPl {
+  color: #012136;
+}
+.spanothers__6th__mkCgQd8CfO {
+  color: #012136;
+}
+.spanothers__7th__mkCgqnqpAu {
+  color: #012136;
+}
+.spanothers__8th__mkCgQtT9Nz {
+  color: #012136;
+}
+.spanothers__9th__mkCgqsrSpA {
+  color: #012136;
+}
+.spanothers__10th__mkCgqQn4I {
+  color: #012136;
+}
+.spanothers__11Th__mkCgqdBqc {
+  color: #012136;
+}
+.spanothers__12Th__mkCgqBhAxv {
+  color: #012136;
+}
+.span__nkVCn {
+  font-weight: 400;
+}
+.spanothers__6th__nkVCnd8CfO {
+  color: #012136;
+}
+.spanothers__7th__nkVCnNqpAu {
+  color: #012136;
+}
+.spanothers__8th__nkVCntT9Nz {
+  color: #012136;
+}
+.spanothers__9th__nkVCnSrSpA {
+  color: #012136;
+}
+.spanothers__10th__nkVCnQn4I {
+  color: #012136;
+}
+.spanothers__11Th__nkVCnDBqc {
+  color: #012136;
+}
+.spanothers__12Th__nkVCnBhAxv {
+  color: #012136;
+}
+.span__vc4Hk {
+  font-weight: 400;
+}
+.spanothers__7th__vc4HkNqpAu {
+  color: #012136;
+}
+.spanothers__8th__vc4HktT9Nz {
+  color: #012136;
+}
+.spanothers__9th__vc4HkSrSpA {
+  color: #012136;
+}
+.spanothers__10th__vc4HkQn4I {
+  color: #012136;
+}
+.spanothers__11Th__vc4HkDBqc {
+  color: #012136;
+}
+.spanothers__12Th__vc4HkBhAxv {
+  color: #012136;
+}
+.span__f2BdL {
+  font-weight: 400;
+}
+.spanothers__8th__f2BdLtT9Nz {
+  color: #012136;
+}
+.spanothers__9th__f2BdLsrSpA {
+  color: #012136;
+}
+.spanothers__10th__f2BdLQn4I {
+  color: #012136;
+}
+.spanothers__11Th__f2BdLdBqc {
+  color: #012136;
+}
+.spanothers__12Th__f2BdLBhAxv {
+  color: #012136;
+}
+.span___7Rt2C {
+  font-weight: 400;
+}
+.spanothers__9th___7Rt2CSrSpA {
+  color: #012136;
+}
+.spanothers__10th___7Rt2CQn4I {
+  color: #012136;
+}
+.spanothers__11Th___7Rt2CDBqc {
+  color: #012136;
+}
+.spanothers__12Th___7Rt2CBhAxv {
+  color: #012136;
+}
+.span__zyBh {
+  font-weight: 400;
+}
+.spanothers__10th__zyBhQn4I {
+  color: #012136;
+}
+.spanothers__11Th__zyBhdBqc {
+  color: #012136;
+}
+.spanothers__12Th__zyBhBhAxv {
+  color: #012136;
+}
+.span__dYaJn {
+  font-weight: 400;
+}
+.spanothers__11Th__dYaJndBqc {
+  color: #012136;
+}
+.spanothers__12Th__dYaJnBhAxv {
+  color: #012136;
+}
+.span__pwVva {
+  font-weight: 400;
+}
+.spanothers__12Th__pwVvaBhAxv {
+  color: #012136;
+}
