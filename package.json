@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/server": "^11.11.0",
     "@plasmicapp/cli": "^0.1.353",
     "@plasmicapp/react-web": "^0.2.414",
     "@plasmicpkgs/antd5": "^0.0.319",
