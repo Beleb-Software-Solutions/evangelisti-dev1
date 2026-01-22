@@ -98,26 +98,40 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   sync-lockfile:
     runs-on: ubuntu-latest
-    # Skip if commit is from this workflow (avoid infinite loop)
-    if: "!contains(github.event.head_commit.message, 'chore: sync package-lock.json')"
     steps:
+      - name: Check if should skip
+        id: skip-check
+        run: |
+          if [[ "${{ github.event.head_commit.message }}" == *"chore: sync package-lock.json"* ]]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Checkout repository
+        if: steps.skip-check.outputs.skip != 'true'
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
+        if: steps.skip-check.outputs.skip != 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
       - name: Update package-lock.json
+        if: steps.skip-check.outputs.skip != 'true'
         run: npm install --package-lock-only --legacy-peer-deps
 
       - name: Check for changes
+        if: steps.skip-check.outputs.skip != 'true'
         id: check
         run: |
           if git diff --quiet package-lock.json; then
@@ -127,7 +141,7 @@ jobs:
           fi
 
       - name: Commit and push changes
-        if: steps.check.outputs.changed == 'true'
+        if: steps.skip-check.outputs.skip != 'true' && steps.check.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -140,6 +154,8 @@ jobs:
 
 - **Runs on every push to main** - Catches any sync issues
 - **Manual trigger** - Can run from GitHub Actions tab via `workflow_dispatch`
+- **Explicit permissions** - `contents: write` ensures the workflow can push changes
+- **Skip check inside steps** - Handles null commit messages gracefully (avoids job-level errors)
 - **Skip bot commits** - Avoids infinite loops by checking commit message
 - **Legacy peer deps** - Handles React version conflicts with `--legacy-peer-deps`
 
